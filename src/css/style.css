@@ -1,0 +1,220 @@
+html {
+     color: #fff;
+}
+
+body {
+     font-family: "poppins", sans-serif;
+     background: linear-gradient(150deg, #000000, #000000); 
+     background-size: 120% 120%; 
+     margin: 0 auto;
+     max-width: 1120px;
+     min-width: 320px;
+     overflow-x: hidden;
+}
+
+.cabecalho {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 30px 15px;
+}
+
+.cabecalho .logo {
+     font-weight: 600;
+     width: 65px;
+     height: 65px;
+     border-radius: 50%;
+     border: solid 3px #ff8500;
+     line-height: 65px;
+     text-align: center;
+     font-family: "raleway", sans-serif;
+     transition: 0.3s;
+     box-shadow: 0  0  5px #fff;
+}
+
+.cabecalho a:hover .logo {
+     color: #ff8500;
+     border: 2px solid #ff8500;
+     transform: scale(1.1);
+}
+
+
+.cabecalho .menu li a {
+     font-size: 20px;
+     padding: 10px 25px;
+     border: 2px solid #ff8500;
+     border-radius: 30px;
+     transition: 0.3s;
+     box-shadow: 0  0  5px #fff;
+     font-weight: 500;
+}
+
+.cabecalho .menu li a:hover {
+     border: 2px solid #ff8500;
+     color: #ff8500;
+     border-radius: 50%;
+}
+
+.home {
+     display: flex;
+     min-height: calc(100vh - 125px);
+     align-items: center;
+     gap: 50px;
+     justify-content: space-between;
+}
+
+.home .informacoes {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     letter-spacing: 2px;
+     padding: 0 15px;
+     max-width: 50%;
+}
+
+.home .informacoes h1 {
+     font-family: "raleway", sans-serif;
+     font-size: 40px;
+     font-weight: 600;
+     
+}
+
+.home .informacoes p {
+     font-family: "raleway", sans-serif;
+     font-size: 20PX;
+     margin-bottom: 10PX;
+     font-weight: 400;
+
+}
+
+.home .informacoes span{
+     font-weight: 700;
+     text-align: center;
+     color: #ff8500;
+}
+
+.home .redes-sociais {
+     display: flex;
+     justify-content: center;
+     gap: 25px;
+}
+
+.home .redes-sociais a i {
+     border: solid 2px #fff;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     text-align: center;
+     font-size: 26px;
+     transition: 0.3s;
+     background-color: #000;
+}
+
+.home .redes-sociais .fa-whatsapp {
+     background-color: #25d366;
+}
+
+.home .redes-sociais .fa-instagram {
+     background: linear-gradient(130deg, #405d46, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.home .redes-sociais .fa-facebook {
+     background-color: #0866ff;
+}
+
+.home .redes-sociais a i:hover {
+     border: 3px solid #fff;
+     transform: scale(1.1);
+}
+
+.home .container-foto .foto {
+     max-width: 400px;
+     border-radius: 50%;
+}
+
+.home .container-foto img {
+     width: 100%;
+     border-radius: 50%;
+}
+
+.home .foto.sombra-interna {
+     background: linear-gradient(to right, #252525, #ff8500, #ff8500);
+     
+}
+
+
+
+     /* PROVA SOCIAL */
+
+.projetos {
+     padding: 70px;
+}
+
+.projetos .titulo {
+     text-align: center;
+     padding: 60px 0;
+     font-size: 40px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+.projetos .container-projetos {
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     margin-bottom: 20px;
+     justify-content: center;
+}
+
+.projetos .projeto {
+     max-width: 260px;
+     max-height: 600px;
+     position: relative;
+     display: none;
+}
+
+.projetos .projeto.ativo {
+     display: block;
+}
+
+.projetos .projeto img {
+     height: 100%;
+}
+
+.projetos .projeto h3{
+     background-color: #040203;
+     width: 100%;
+     padding: 10px;
+     position: absolute;
+     text-align: center;
+     bottom: 0;
+} 
+
+.projetos .footer {
+     padding-top: 50px;
+}
+
+.projetos .footer .btn-saiba-mais {
+     width: 200px;
+     font-weight: 600;
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     padding: 10px  20px;
+     border-radius: 25px;
+     background-color: #ff7000;
+} 
+
+
+.projetos .btn-saiba-mais {
+     padding: 10px 25px;
+     transition: 0.3s;
+     font-size: 16px;
+}
+
+.projetos .btn-saiba-mais:hover {
+     background-color: #ff8500;
+     transition: 0.3s;
+     transform: scale(1.1);
+}

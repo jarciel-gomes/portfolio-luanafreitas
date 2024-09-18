@@ -1,0 +1,46 @@
+
+
+@media (max-width: 900px) {
+     
+     .home {
+          flex-direction: column-reverse;
+     }
+
+     .home .informacoes {
+          max-width: 100%;
+          text-align: center;
+     }
+
+     .home .informacoes h1, .projetos .titulo {
+          font-size: 32px;
+     } 
+
+     
+}
+
+
+@media(max-width: 556px) {
+
+     .cabecalho .menu li a {
+          font-size: 18px;
+     }
+
+     .home .informacoes h1 {
+          font-size: 26px;
+     }
+
+     .home .informacoes p {
+          font-size: 18px;
+     }
+
+     .home .container-foto .foto {
+          max-width: 300px;
+     }
+
+     
+
+     .projetos .titulo {
+          font-size: 30px;
+     }
+   
+}
